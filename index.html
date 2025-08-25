@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my little place on the web where I try to scribble some code">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="pieszka's micro site">
+    <meta property="og:description" content="my little place on the web where I try to scribble some code">
+    <meta property="og:site_name" content="pieszka's micro site">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        body { min-height: 100vh; margin: 0; display: flex; flex-direction: column; }
+        main { flex: 1; }
+    </style>
+    <title>pieszka's micro site</title>
+</head>
+<body>
+    <header class="container">
+        <h1>pieszka's micro site</h1>
+        <hr>
+    </header>
+    <main class="container">
+        <h3>Hi!</h3>
+        <p>In these parts of the Internet, they call me Pieszka. I am a network engineer and I don't like programming. For this reason, you can find here various software, libraries and projects of my own, which I have decided to make available to everyone under permissive licences.</p>
+        <h4><a href="https://github.com/Pieshka/minibox-pppoe-annihilator">Minibox PPPoE Annihilator</a></h4>
+        <p>A small and neat Linux distribution whose sole task is to terminate PPPoE sessions and share the address assigned by the operator with another device on the network. Minibox therefore draws on solutions such as <i>True IP DMZ</i>, <i>IP Passthrough</i> and <i>Half-Bridge</i>. PPPoE-IP relay, in a sense.</p>
+        <h4><a href="https://github.com/Pieshka/pppoe-atm-relay">pppoe-atm-relay</a></h4>
+        <p>A very simple daemon whose task is to transfer PPP packets between ATM and Ethernet interfaces. Useful on ADSL/VDSL or DOCSIS routers and other broadband technologies using ATM. It terminates PPPoE sessions established with a device operating via an Ethernet interface (e.g. a regular router) and forwards PPP packets to the ATM interface (e.g. the interface provided by an ADSL modem on SoC) in LLC or VC-MUX encapsulation.</p>
+        <h4><a href="https://github.com/Pieshka/atmtcp-rfc1483-2648-wireshark-dissector">ATMTCP RFC1483/2684 Wireshark Dissector</a></h4>
+        <p>A dissector for Wireshark software that enables the decapsulation of cells compliant with RFC1483 and RFC2648 transmitted via the ATM over TCP protocol. Useful for debugging applications that use ATM.</p>
+        <h4><a href="C161PITools">C161PITools</a></h4>
+        <p>A set of built-in tools based on those prepared by <a href="https://github.com/flarn2006/BHSTools">flarn2006</a>, which enable communication with the Infineon C161PI microcontroller connected to Intel JS28F160 memory and Cypress SRAM. These chips are often used in private branch exchanges.</p>
+        <h4><a href="https://github.com/Pieshka/qttapimodem">QtTAPIModem</a></h4>
+        <p>An extensive library for the Qt framework used to communicate with the modem part of the TAPI mechanism used in Windows systems. Its main purpose is to encapsulate the complex TAPI behind a transparent library. QtTAPIModem only allows you to establish a modem connection, which then behaves like a serial port. This can be implemented, for example, in applications that configure telephone exchanges, fire alarm systems and others (configuration via modem).</p>
+        <h4><a href="https://github.com/Pieshka/QtFT2XX">QtFT2XX</a></h4>
+        <p>A library built on <a href="https://github.com/vpreatoni/QtFT232">Victor Preatoni's code</a>, which uses the proprietary FTDI FT2XX driver and wraps it in a simple Qt class that simplifies communication with this company's chips.</p>
+        <br>
+        <p>I hope these projects will be useful to someone :></p>
+    </main>
+    <footer class="container">
+        <h6>pieszka - the content of this page is available under CC0</h6>
+    </footer>
+</body>
+</html>
